@@ -543,7 +543,7 @@ func (d *CockroachDBDriver) Imports() (importers.Collection, error) {
 				`"strings"`,
 			},
 			ThirdParty: importers.List{
-				`"github.com/volatiletech/sqlboiler/strmangle"`,
+				`"github.com/volatiletech/strmangle"`,
 				`"github.com/volatiletech/sqlboiler/drivers"`,
 			},
 		},
